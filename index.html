@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <header>
+        
+        <nav>
+            
+            <ul>
+                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="home">
+        <h1>Cristel Romeo, Web Developer</h1>
+        <p>Hello, I'm a Web Developer with a passion for creating efficient and user-friendly websites.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Cristel Shaine G. Romeo 19-year-old student pursuing a Bachelor of Science in Information Technology at University of the Cordillera. I was born and raised here in Baguio City. When I was in high school I have keen interest in techonology so I developed an interest in computers and programming. I love reading comics and playing online games.
+        My future goal is to make my own money as a web developer.
+            
+         </p>
+    </section>
+
+
+    <section id="projects">
+        <h2>My Resume</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Wala pang projects</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Wala ding projects</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <p>I am familiar of html and css</p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 </body>
 </html>
