@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #ffffff;
+  }
+
+  h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  #navbar a {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  #navbar a:hover {
+    color: #007bff;
+  }
+
+  #welcome-section {
+    height: 100vh;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6EE2rKUSWkluCybNlEmtK0pr6WJEWLn8YnhSL7yttKpyq5FCr8541hzqan4l4TOSlJCk_V9UMa8c672i3dp0-s9yZbdAVO8GIuFyOyANRv7Ugq43CiyXwglx8cLNPA2u-fUvsxMQbXvDd/w919/call-of-duty-mobile-dame-skin-4k-uhdpaper.com-720.1_a-thumbnail.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+    
+  }
+  
+  #welcome-section h1 {
+    font-size: 3rem;
+  }
+  
+  #welcome-section p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  #projects {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .project-tile {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .project-tile h3 {
+    font-size: 1.5rem;
+  }
+  
+  .project-tile a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .project-tile a:hover {
+    background-color: #0056b3;
+  }
+
+  #contact {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  #contact a {
+    color: #28a745;
+  }
+  
+  #contact a:hover {
+    color: #1e7e34;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #welcome-section {
+      padding: 40px 20px;
+    }
+  
+    #projects {
+      padding: 20px;
+    }
+  
+    .project-tile {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #welcome-section h1 {
+      font-size: 2rem;
+    }
+  
+    #projects h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
